@@ -7,7 +7,7 @@
 ![Screen Shot 2021-03-05 at 8 26 04 PM](https://user-images.githubusercontent.com/80026278/110133740-a9d81380-7df2-11eb-8cb2-92a06f9d5a53.png)
 
 # Sections 📚
-✔️ Same login page as like Amazon website with firebase authenticaton.
-✔️ Checkout Page with Perfect Calculation of Price.
-✔️ Real Payment option using stripe.com website.
+✔️ Same login page as like Amazon website with firebase authenticaton.\
+✔️ Checkout Page with Perfect Calculation of Price.\
+✔️ Real Payment option using stripe.com website.\
 To view a live example, **[click here](https://clone-cea0b.web.app/)**
