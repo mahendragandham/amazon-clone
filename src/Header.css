@@ -1,0 +1,98 @@
+.header
+{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    background: #131921;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.header__logo
+{
+    width: 100px;
+    object-fit: contain;
+    margin: 0 20px;
+    margin-top: 18px;
+}
+.header__search
+{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    border-radius: 30px;
+}
+.header__searchInput
+{
+    height: 18px;
+    padding: 10px;
+    border: none;
+    width: 100%;
+    font-size: 20px;
+    margin-top: 2px solid #cd9042;
+}
+.header__searchInput:focus
+{
+    outline: none;
+}
+.header__searchIcon
+{
+    position: relative;
+    padding: 5px;
+    height: 28px !important;
+    background: #cd9042;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+.header__option
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #fff;
+}
+.header__optionLineOne
+{
+    font-size: 12px;
+}
+.header__optionLineTwo
+{
+    font-size: 15px;
+    font-weight: 800em;
+}
+.header__optionBasket
+{
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+.header__basketCount
+{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.header__nav
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+.header__select
+{
+    position: relative;
+    height: 40px;
+    left: 0px;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    background: rgb(237, 237, 237);
+    padding: 5px ;
+    cursor: pointer;
+}
+.header__location
+{
+    color: #fff;
+    z-index: -1;
+    filter: invert(0);
+}

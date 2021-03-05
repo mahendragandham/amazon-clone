@@ -1,0 +1,45 @@
+.pageend
+{
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1500px;
+    background: #232f3e;
+    padding: 30px;
+}
+.bottompage__column
+{
+    position: relative;
+    padding: 10px;
+    border: 50px solid transparent;
+    border-top: 20px solid transparent;
+}
+.bottompage__column a
+{
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    padding: 5px;
+}
+.bottompage__column h3
+{
+    font-weight: bold;
+    color: #fff;
+    border-bottom: 15px solid transparent;
+}
+.bottompage__column a:before
+{
+    content: '';
+    position: absolute;
+    display: block;
+    width: 0;
+    height: 2px;
+    transition: width .4s;
+    background: #fff;
+}
+.bottompage__column a:hover::before
+{
+    width: 30%;
+    transition: width .4s;
+}
